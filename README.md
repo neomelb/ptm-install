@@ -1,19 +1,13 @@
-# My ProfitTrailer Scripts
+如何在Ubuntu Linux环境下安装并运行PTMagic (ProfitTrailer插件)
+https://steemit.com/ptmagic/@neomelb/ubuntu-linux-ptmagic-profittrailer
 
+Origianl Code Author: cryptopopolis
+Original Code can be found: https://bitbucket.org/cryptopopolis/profittrailer/wiki/Home 
+Code Modify: neomelb 
 
-**Please See the Wiki page for usage**
+**如果此教程对您有帮助，请不吝捐赠：
 
-https://bitbucket.org/cryptopopolis/profittrailer/wiki/Home
-
-
-
-
-If this helped you, donations are gladly accepted:
-
-**BTC:** *14JKAXce3nVPNhtWyvmV1Q5pMoftL8rzr5*
-
-**ETH:** *0x5910243aF5c2642e9Bb8861e0B36D225BDB2320F*
-
-**LTC:** *LSC5znhb1xmQr882yUJ8o9Pf3bGKfEdxAi*
-
-**COMING SOON** https://www.profittrailerhosting.com
+**BTC:  1DnMpCkheP4zYUaeevM7jQioTHQ95MK6iW
+ETH:  0xae629fe5d75e921e7770baa7606f6e79ee2c6426
+LTC:   MWZJ73KFkzwBnpyUs1B68GwRo4qAYoCgJk
+BCH:  16a1y2K1wQULaK6qMrE4nnbaw6yABhg6mS
