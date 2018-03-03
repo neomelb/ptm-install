@@ -1,0 +1,13 @@
+[Unit]
+Description=PTMagic-Monitor
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/PTMagic
+ExecStart=/usr/bin/dotnet Monitor/Monitor.dll
+SyslogIdentifier=ptmagic-monitor
+TimeoutSec=300
+
+[Install]
+WantedBy=multi-user.target

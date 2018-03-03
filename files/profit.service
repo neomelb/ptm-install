@@ -1,0 +1,13 @@
+[Unit]
+Description=profit
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/ProfitTrailer
+ExecStart=/usr/bin/java -jar /opt/ProfitTrailer/ProfitTrailer.jar -XX:+UseConcMarkSweepGC -Xmx1024m -Xms512m
+SyslogIdentifier=profit-trailer
+TimeoutSec=300
+
+[Install]
+WantedBy=multi-user.target

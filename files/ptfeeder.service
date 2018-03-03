@@ -1,0 +1,13 @@
+[Unit]
+Description=profit
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/PTFeeder
+ExecStart=/usr/bin/dotnet pt-feeder.dll
+SyslogIdentifier=pt-feeder
+TimeoutSec=300
+
+[Install]
+WantedBy=multi-user.target
