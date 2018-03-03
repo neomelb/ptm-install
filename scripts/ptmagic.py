@@ -14,8 +14,8 @@ import pwd
 
 
 ptmagic = 'n'
-ptpath = 'ProfitTrailer'
-pmpath = 'PTMagic'
+ptpath = '/$HOME/ProfitTrailer'
+pmpath = '/$HOME/PTMagic'
 exch = 'Binance'
 upgrade = 'n'
 
