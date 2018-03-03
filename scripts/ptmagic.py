@@ -16,7 +16,7 @@ import pwd
 ptmagic = 'n'
 ptpath = 'ProfitTrailer'
 pmpath = 'PTMagic'
-exch = 'blank'
+exch = 'Binance'
 upgrade = 'n'
 
 
@@ -96,7 +96,7 @@ def procPtmagic(data):
             print("PTMagic has been upgraded, you will need to restart PTMagic and PTMagic-Monitor")
     os.system('rm -rf /tmp/PTMagic*')
 
-
+'''
 def getExchange():
     global exch
     while True:
@@ -122,7 +122,7 @@ def getExchange():
     print("\tYou selected: %s" % exch)
     if "y" in ptmagic.lower():
         ptmagicConfig(exch)
-
+'''
 
 def ptmagicConfig(exch):
     for line in fileinput.input(["%s/application.properties" % ptpath], inplace=1):
